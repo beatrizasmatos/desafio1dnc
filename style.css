@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    font-family: 'inter' ;
+}
+#menusuperior{
+    background-color: #303030;
+padding:150px 50px 130px 30px;
+
+}
+#titulomenusuperior{
+    font-family: Inter;
+    font-size: 43px;
+    font-weight: 550;
+    line-height: 72px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: white;
+}
+#textomenusuperior{
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+}
+
+#menuinformativo{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+   padding: 75px;
+}
+.valores{
+    
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+   margin-bottom: 20px;  
+}
+
+.contanier{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.bloco1{
+    order: 0;
+}
+
+.bloco2{
+    order: 0;
+}
+
+#menutextofoto{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 280px 65px 200px 55px;
+}
+
+#titulomenufoto{
+    font-size: 30px;
+    font-weight: 530;
+    letter-spacing: 0,5px;
+    }
+
+#textomenufoto{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+#foto{
+    margin: 100px 0px 100px 30px;
+}
+
+#menuformulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+#tituloformulario{
+    font-family: 'inter'sans-serif;
+    font-size: 23px;
+    font-weight: 630;
+    letter-spacing: 1px;
+    color: white;
+    padding: 60px 0px 20px 0px;
+    }
+
+    input{
+        Width: 300px;
+        Height:40px;
+        background-color:white ;
+        margin:20px 0px 15px 0px;
+        border: 0px;
+        border-radius: 6px;
+        padding-left: 20px;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-weight: 650;
+    }
+    button{
+        background-color: #C07212;
+        Width: 160px;
+        Height:45px;
+        margin:35px 0px 45px 0px;
+        border: 0px;
+        border-radius: 6px;
+        color: white;
+        font-family: 'Raleway';
+        font-size: 17px;
+        font-weight: 650;
+        line-height: 30px;
+
+     }
+     button:hover {
+        background-color:#ffa73b ;
+        color: #303030;
+        transform: translateY(-8px);
+        box-shadow: 0px 20px 25px 0px #000000 ;
+        transition-duration: 0.4s;
+     }
